@@ -25,18 +25,18 @@
 # echo "Значения не понятное"
 # fi
 
-str1=test
-str2=t
+# str1=test
+# str2=testts
 
-if [ $str1 > $str2 ]
-then 
-echo "первая строка больше"
-elif [ $str1 < $str2 ]
-then
-echo "вторая строка больше"
-elif [ $str1 == $str2 ]
-then 
-echo "оба равны"
-else
-echo "Непонятное значение"
-fi
+# if [ $str1 > $str2 ]
+# then 
+# echo "первая строка больше"
+# elif [ $str1 < $str2 ]
+# then
+# echo "вторая строка больше"
+# elif [ $str1 == $str2 ]
+# then 
+# echo "оба равны"
+# else
+# echo "Непонятное значение"
+# fi

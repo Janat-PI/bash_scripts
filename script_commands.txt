@@ -43,3 +43,26 @@ echo "yeah they equal"
         -ne <--> не равно )
 
 а в строках обычные математические операторы
+> < = != 
+
+----------------------------------------------------------------------------
+
+циклы for в bash script 
+
+for items in First Second Third
+do
+echo "$items элемент"
+done
+
+for items in "first text" "second text" "third text"
+do 
+echo "$items"
+done 
+
+IFS - internal fild separator
+это переменная окружения в которой указывается разделитель полей
+
+dir=/home/zhanat/*  знак * означает что мы хотим посмотреть все содержимое данной директории 
+-d ключ означает директория 
+
+
